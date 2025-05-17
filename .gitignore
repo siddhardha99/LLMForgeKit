@@ -1,0 +1,86 @@
+# Ignore Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+# .venv is a common name, but you might use others like 'env' or 'venv-projectname'
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files (add your IDE if not listed)
+.idea/          # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/        # VS Code (can be more specific if needed)
+*.swp           # Vim swap files
+*.swo           # Vim swap files
+*.un~           # Vim undo files
+
+# Ignore test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore temporary files and backups
+*~
+*.bak
+*.swp
+
+# Ignore database files (if using SQLite)
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore upload folders or sensitive data files
+# uploads/
+# config.ini
+
+# Ignore logs
+*.log
+
+# Ignore documentation build outputs
+docs/_build/
+
+# Ignore PyInstaller files
+*.manifest
+*.spec
+
+# Ignore celery beat schedule file
+celerybeat-schedule
+
+# Ignore SageMath parsed files
+*.sage.py
+
+# Ignore environment variables file
+.env
+.flaskenv
+
+# Ignore yarn and npm files if using them alongside Python
+node_modules/
+yarn.lock
+package-lock.json
+
